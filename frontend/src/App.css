@@ -1,0 +1,172 @@
+/* src/App.css */
+
+/* General resets and body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container for main content */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Card style for boxes */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+/* Navbar styles */
+nav {
+  background-color: #0077cc;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #aaddff;
+}
+
+nav button {
+  margin-left: auto;
+  padding: 6px 12px;
+  background-color: #005fa3;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+nav button:hover {
+  background-color: #004080;
+}
+
+/* Form inputs and buttons */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Lists */
+ul {
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* Challenge list */
+ul.challenge-list {
+  list-style: none;
+}
+
+.challenge-list li {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.challenge-list li:hover {
+  box-shadow: 0 0 8px rgba(0, 119, 204, 0.3);
+  cursor: pointer;
+}
+
+/* Challenge title link */
+.challenge-list li a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.challenge-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Error text */
+.error-text {
+  color: #cc0000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Centered welcome text */
+.container > h2 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  nav button {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
