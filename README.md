@@ -2,6 +2,11 @@
 
 A comprehensive full-stack web application for healthcare consulting, enabling clients to post challenges and receive anonymous bids from verified consultants. Built with React (frontend) and Node.js (backend), the platform emphasizes trust, anonymity, transparency, and secure communication in the healthcare consulting ecosystem.
 
+## Live Demo
+
+You can try the deployed version of DecentraHealth here:  
+👉 [https://decentralized-healthcare.vercel.app](https://decentralized-healthcare.vercel.app)
+
 ## Features
 
 ### Core Functionality
@@ -264,4 +269,3 @@ For support and questions:
 ---
 
 **DecentraHealth** - Revolutionizing healthcare consulting through decentralized, transparent, and secure collaboration.
-
