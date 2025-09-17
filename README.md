@@ -255,10 +255,6 @@ The application includes comprehensive testing coverage:
 - Update documentation for API changes
 - Ensure mobile responsiveness for UI changes
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 
 For support and questions:
